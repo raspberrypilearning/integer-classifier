@@ -1,38 +1,32 @@
 ## Introduction
 
-Add project description here. What will learners be making?
+In this project you'll be training a computer to recognise the numbers between zero and nine. You'll also learn how measure how well your machine vision model does the job you trained it for.
 
 ### What you will make
+You will create a TensorFlow model in a Google Colab notebook that can recognise the numbers between zero and nine from pictures of those numbers.
 
---- no-print ---
-Add instructions for using the embedded content here.
+![The finished project.](images/image_test_response.png)
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
+--- collapse ---
+---
+title: What you should already know
+---
+This project assumes you already know some Python. Specifically, it assumes you know how to use:
 
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
++ Variables
++ Lists
++ Functions, including creating your own function that accepts arguments
+
+--- /collapse ---
 
 --- collapse ---
 ---
 title: What you will need
 ---
-### Hardware
 
-+ Describe hardware here
-
-### Software
-
-+ Scratch 2.0 (either [online](http://rpf.io/scratchon) or [offline](http://rpf.io/scratchoff))
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ [rpf.io/project-name-go](http://rpf.io/project-name-go){:target="_blank"}
++ A computer
++ An internet connection
++ A Google account
 
 --- /collapse ---
 
@@ -41,8 +35,9 @@ title: What you will need
 title: What you will learn
 ---
 
-+ Two or three learning objectives
-+ ...should go here
++ How nodes and layers work in a machine learning model
++ How to build a complete model
++ How to measure the improvement of your model during its training
 
 --- /collapse ---
 
@@ -51,8 +46,8 @@ title: What you will learn
 title: Additional information for educators
 ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/project-name/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/integer-classifier/print){:target="_blank"}.
 
-[Here is a link to the resources for this project](http://rpf.io/project-name-go).
+[Here is a link to the resources for this project](http://rpf.io/integer-classifier-go).
 
 --- /collapse ---

@@ -7,5 +7,10 @@ copyedit: false
 last_tested: "2020-06-29"
 steps:
   - title: Introduction
-  - title: Step title
-  - title: What next?
+  - title: Get some training data
+  - title: Explore and prepare your data
+  - title: Build your model
+  - title: Compile your model
+  - title: Train your model
+  - title: Test your model
+  - title: What's next?
