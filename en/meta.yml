@@ -1,6 +1,6 @@
-title: integer-classifier
+title: Teach a computer to read
 hero_image: images/banner.png
-description: integer-classifier description
+description: Build a machine vision model with TensorFlow to teach a computer to recognise handwritten numbers.
 version: 4
 listed: false
 copyedit: false
