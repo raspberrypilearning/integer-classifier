@@ -33,3 +33,5 @@ You should see something like the image below, which shows you each of your four
 ![The summary table produced by model.summary() in the Colab notebook](images/model_summary.png)
 
 The first colum is the type of the layer, the second is the outputs it provides to the next layer, and third is the number of parameters for that layer, which control the model's rules, that the optimizer will be adjusting. At the bottom you can see the total number of parameters, and how many of them you are training — in the case of this model over half a million!
+
+--- save ---

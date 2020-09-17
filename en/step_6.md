@@ -11,7 +11,7 @@ history = model.fit(training_images,
                     training_labels,
                     batch_size=100,
                     epochs=10,
-                    validation_data = (testing_images, testing_labels)
+                    validation_data = (validation_images, validation_labels)
                     )
 ```
 
@@ -44,3 +44,5 @@ You should also see a graph showing the improvement of your model over the cours
 ![Two line graphs, one labeled 'Training and Validation Accuracy', the other lableled 'Training and Validation Loss. Each has two lines, one blue and one orange. The blue line is training data, the orange line validation data.' ](images/training_graphs.png)
 
 The left-hand side of the graph shows where the accuracy or loss started at the end of the first epoch, moving right as epochs passed. You can see that the slope of the line was initially very steeply up for accuracy, and steeply down for loss. Over time, the changes became less steep as the model went from making major discoveries about important rules to making minor improvements on rules it had learned in an earlier epoch.
+
+--- save ---

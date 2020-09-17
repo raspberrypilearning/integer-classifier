@@ -37,12 +37,12 @@ Now that the data is loaded, you need to put it into some variables so you can u
 
 --- task ---
 
-Below the previous line, assign the output of the `load_data` function to variables for training and testing images and labels.
+Below the previous line, assign the output of the `load_data` function to variables for training and validation images and labels.
 
 ```python
-(training_images, training_labels), (testing_images, testing_labels) = numbers.load_data()
+(training_images, training_labels), (validation_images, validation_labels) = numbers.load_data()
 ```
 
 --- /task ---
 
-
+--- save ---
