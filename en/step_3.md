@@ -60,14 +60,13 @@ To reshape your images, you need to divide all of the numbers by 255, which will
 
 --- task ---
 
-Below your plotting and printing add these two lines to divide every item in the `training_images` and `validation_images` arrays by 255.
+In the next cell, below your plotting and printing, add these two lines to divide every item in the `training_images` and `validation_images` arrays by 255.
 
 ```python
 training_images = training_images / 255.0
 validation_images = validation_images / 255.0
 ```
 
-Notice that you use `255.0`, not just `255`; this is so one of the numbers in the division is a **floating point** (decimal) number. If both of the numbers are **integers** (whole numbers) Python will ignore the remainder of any division, and you'll just get an array of zeros.
 --- /task ---
 
 --- save ---

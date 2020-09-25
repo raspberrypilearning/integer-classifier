@@ -24,6 +24,6 @@ model = tf.keras.Sequential([
 
 --- /task ---
 
-The `activation='relu'` you see in the dense layers above is a particular function — called an activation function — that the outputs of the layer are passed through before being passed as inputs to the next layer. Basically, it's a way of 'cleaning up' the outputs to make everything run more smoothly. Relu is the default activation function, the one you pick when you don't have a reason to pick another. Softmax, the other activation function used here, converts the numbers in the final layer into probabilities that add up to 100%. The biggest of these probabilities is the most likely guess for the number shown in the image given to your model.
+The `activation='relu'` you see in the dense layers above is a particular function — called an activation function — that the outputs of the nodes in the layer are passed through before being passed as inputs to the next layer. The function is run for each node, and it decides whether or not the node is used as part of the input to the next layer. Relu is the default activation function, the one you pick when you don't have a reason to pick another. Softmax, the other activation function used here, converts the numbers in the final layer into probabilities that add up to 100%. The biggest of these probabilities is the most likely guess for the number shown in the image given to your model.
 
 --- save ---
