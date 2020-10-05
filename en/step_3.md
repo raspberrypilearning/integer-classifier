@@ -18,11 +18,14 @@ print(training_labels[0])
 
 --- task ---
 Now run the code you've written by going to the `Runtime` menu and choosing `Run all`.
---- /task ---
 
-You should see the label, in this case the number five, followed by an image of a five that looks handwritten. You'll also see the numbers 0 to 25 along the edges of the image. These are added automatically every five pixels by the `plt.imshow` function and they show the size of the image — 28 pixels wide by 28 pixels high.
+You should see the label, in this case the number five, followed by an image of a five that looks handwritten. 
+
+You'll also see the numbers 0 to 25 along the edges of the image. These are added automatically every five pixels by the `plt.imshow` function and they show the size of the image — 28 pixels wide by 28 pixels high.
 
 ![The number five, with the image of a handwritten five below it. The numbers zero to twenty-five are visible along the x and y axies of the image.](images/explore_output.png)
+
+--- /task ---
 
 The images are stored in the `training_images` list as numbers. Since you'll be working with those numbers in a moment, it's helpful to understand what they look like.
 

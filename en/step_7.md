@@ -4,7 +4,7 @@ Now that you've trained your number recognition model, it's time to see how well
 
 --- task ---
 
-In the last empty cell, add a call to `predict_image` and pass it the URL of the test image at [http://dojo.soy/num7](http://dojo.soy/num7).
+In the last empty cell, add a call to `predict_image` and pass it the URL of the test image at [http://dojo.soy/num2](http://dojo.soy/num2).
 
 ```python
 predict_image('http://dojo.soy/num2')
