@@ -33,13 +33,13 @@ Run all the code.
 
 You will probably have to wait about a minute for training to complete. Watch the loss get smaller and the accuracy increase as each bach and epoch complete. There are 600 batches in an epoch, because there are 60 000 images in your data.
 
---- /task ---
-
 Once the training is finished, you should see some output like that in the image below, though your numbers may be slightly different.
 
 ![The output of the model training in Google Colab. It shows ten epochs, the amout of time taken for each epoch, along with the training loss, training accuracy, validation loss, and validation accuracy for each.](images/training_output.png)
 
 You should also see a graph showing the improvement of your model over the course of the training, as accuracy increased and loss decreased.
+
+--- /task ---
 
 ![Two line graphs, one labeled 'Training and Validation Accuracy', the other lableled 'Training and Validation Loss. Each has two lines, one blue and one orange. The blue line is training data, the orange line validation data.' ](images/training_graphs.png)
 
