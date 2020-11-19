@@ -2,7 +2,7 @@
 
 Now that you have images prepared, it's time to build a model to recognise them. The **image classifier** you'll build is a kind of **neural network**. Neural networks get their name because they behave a little like our brains, which are made of neurons. However, a neural network that you build in a computer uses **nodes** instead of neurons. The nodes are organised into **layers**, with every node in a layer being connected to every node in the next layer. 
 
-The first layer takes the input, in this case the image of a number, and the last layer provides the output, in this case the liklihood that the input is each of the numbers from zero to nine. Treat the highest liklihood as the model's prediction, or best guess, as to what the image is.
+The first layer takes the input, in this case the image of a number, and the last layer provides the output, in this case the likelihood that the input is each of the numbers from zero to nine. Treat the highest likelihood as the model's prediction, or best guess, as to what the image is.
 
 Each node learns a rule, and produces a measure of the strength of the match from its inputs to the rule it has learned, which it passes on to every node it is connected to as an input. Each node is connected to every node in the next layer.
 
