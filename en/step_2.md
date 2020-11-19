@@ -28,7 +28,7 @@ First, you need to load the dataset into a variable. In the first empty cell, cr
 numbers = tf.keras.datasets.mnist
 ```
 
-`mnist` is just the name of the dataset of numbers you're loading. It stands for 'Modified National Institute of Standards and Technology', which is the group that put it together, if you're curious.
+`mnist` is just the name of the dataset of numbers you're loading. It stands for 'Modified National Institute of Standards and Technology', which is the name of the group that put it together.
 --- /task ---
 
 Now that the data is loaded, you need to put it into some variables so you can use it later. Because the `load_data` function you'll be using returns two **tuples**, you'll have to supply the variable names as tuples too.
