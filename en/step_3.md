@@ -31,7 +31,7 @@ The images are stored in the `training_images` list as numbers. Since you'll be 
 
 --- task ---
 
-Just below your code to print out the image lable, print the image using the standard Python `print` function.
+Just below your code to print out the image label, print the image using the standard Python `print` function.
 
 ```python
 print(training_images[0])
