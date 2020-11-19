@@ -27,7 +27,7 @@ You'll also see the numbers 0 to 25 along the edges of the image. These are adde
 
 --- /task ---
 
-The images are stored in the `training_images` list as numbers. Since you'll be working with those numbers in a moment, it's helpful to understand what they look like.
+The images are stored in the `training_images` list as numbers. Since you'll work with those numbers in a moment, it's helpful to understand what they look like.
 
 --- task ---
 
