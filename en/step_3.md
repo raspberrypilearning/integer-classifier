@@ -53,7 +53,7 @@ It can be hard to see how these are your image, but if you copy them into a text
 
 ![The list reformatted as described above. There are 28 lines, and the shape of the number five is clearly visible.](images/reformatted_image_as_list.png)
 
-There are 28 lists, each with 28 numbers. Each list is a row of pixels, and each number represents a pixel in the image. You can see that the higher the number is, the brighter the corresponding pixel is. The zeros appear black, while 255 is the brightest white. Colour images work the same way, but they use three **layers** of these lists, one for each of red, green, and blue. The combination of those layers can make almost 17 million different colours!
+There are 28 lists, each with 28 numbers. Each list is a row of pixels, and each number represents a pixel in the image. You can see that the higher the number is, the brighter the corresponding pixel. The zeros appear black, while 255 is the brightest white. Colour images work the same way, but they use three **layers** of these lists, one for each of red, green, and blue. The combination of those layers can make almost 17 million different colours!
 
 [[[generic-theory-simple-colours]]]
 
