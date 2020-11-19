@@ -33,6 +33,6 @@ You should see something like the image below, which shows you each of your four
 
 --- /task ---
 
-The first column is the type of the layer; the second is the outputs it provides to the next layer; and third is the number of parameters for that layer, which control the model's rules that the optimizer will adjust. At the bottom, you can see the total number of parameters, and how many of them you are training — in the case of this model it's over half a million!
+The first column is the type of the layer; the second is the outputs it provides to the next layer; and third is the number of parameters for that layer, which controls the model's rules that the optimizer will adjust. At the bottom, you can see the total number of parameters, and how many of them you are training — in the case of this model it's over half a million!
 
 --- save ---
