@@ -16,7 +16,7 @@ Before you change anything, make sure you save the notebook to your drive so you
 
 --- /task ---
 
-To train a model — the process of having a model learn rules for classifying things from a series of examples — you'll need a lot of example data for it. Since the model you're building here is to identify handwritten numbers from zero to nine, you'll need a lot of images of those numbers written by lots of different people, and properly labelled so that the model can check its own accuracy as it trains.
+To train a model — the process of having a model learn rules for classifying things from a series of examples — you'll need a lot of example data for it. Since you want the model to identify handwritten numbers from zero to nine, you'll need a lot of images of those numbers written by lots of different people, and properly labelled so that the model can check its own accuracy as it trains.
 
 Conveniently, TensorFlow already contains a dataset like this, which you can load into your program with a couple of lines of code.
 
