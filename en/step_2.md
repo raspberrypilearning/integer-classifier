@@ -10,7 +10,7 @@ Open the [Google Colab starter notebook](https://colab.research.google.com/drive
 
 --- task ---
 
-Before you change, make sure you save the notebook to your drive so you can keep your work! Choose `File > Save a copy in Drive` and sign in to your Google account if prompted.
+Before you change anything, make sure you save the notebook to your drive so you can keep your work! Choose `File > Save a copy in Drive` and sign in to your Google account if prompted.
 
 ![The 'File' menu in Google Colab, with 'Save a copy in Drive' highlighted.](images/save_to_drive.png)
 
