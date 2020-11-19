@@ -57,7 +57,7 @@ There are 28 lists, each with 28 numbers. Each list is a row of pixels, and each
 
 [[[generic-theory-simple-colours]]]
 
-However, machine vision models like the one you're building work best when all of the numbers they're dealing with are between zero and one. Sometimes, this means you have to reshape the data you feed into them a little. 
+However, machine vision models like this one work best when all of the numbers they handle are between zero and one. Sometimes, this means you have to reshape the data you feed into them. 
 
 To reshape your images, you need to divide all of the numbers by 255, which will give you values between zero and one. With a normal list, you would have to change each value individually, either in a loop or a list comprehension. However, what `numbers.load_data()` returned weren't normal lists. The function returned **numpy arrays**, which behave a lot like lists but have some extra features that are very useful for machine learning work like you're doing now. One of those extra features is that you can do the same piece of maths to every item in the array all at once.
 
