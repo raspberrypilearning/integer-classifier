@@ -6,7 +6,7 @@ First, just so you know what the data looks like, you need to print out an image
 
 --- task ---
 
-In the next empty cell, call the `plt.imshow` function and pass it the first training image, as well as the parameter `cmap= 'gray'` to tell it to use the colour map for a greyscale image. Note that the American spelling of 'gray' must be used. Print out the first training label too.
+In the next empty cell, call the `plt.imshow` function, and pass it the first training image, as well as the parameter `cmap= 'gray'` to tell it to use the colour map for a greyscale image. Note that the American spelling of 'gray' must be used. Print out the first training label too.
 
 
 ```python
