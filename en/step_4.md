@@ -18,7 +18,7 @@ Your model has four layers:
 While it's helpful to have some idea of how the network 'thinks', it's not worth spending too much time trying to figure out the sorts of rules it might create. The rules created by machine learning neural networks are usually quite strange, and make little sense to humans, but work very well for machines. 
 
 --- task ---
-In the next empty cell in the notebook, create your model with one `Flatten` layer, to take a 28 by 28 pixel image and convert it into a single list of 784 (28 times 28) numbers, as well as three `Dense` layers to create rules and provide your outputs. The last layer must have ten nodes, as there are ten numbers. For the others, choose 500 and 300 — these are good sizes for this problem, but once you've got the model trained with them you can try others and see what difference it makes.
+In the next empty cell in the notebook, create your model with one `Flatten` layer, to take a 28 by 28 pixel image and convert it into a single list of 784 (28 times 28) numbers, as well as three `Dense` layers to create rules and provide your outputs. The last layer must have ten nodes, as there are ten numbers. For the others, choose 500 and 300. These are good sizes for this problem, but once you've got the model trained with them you can try others and see what difference it makes.
 
 ```python
 model = tf.keras.Sequential([
@@ -31,6 +31,6 @@ model = tf.keras.Sequential([
 
 --- /task ---
 
-The `activation='relu'` you see in the dense layers above is a particular function — called an activation function — that the outputs of the nodes in the layer are passed through before being passed as inputs to the next layer. The function is run for each node, and it decides whether or not the node is used as part of the input to the next layer. Relu is the default activation function, the one you pick when you don't have a reason to pick another. Softmax, the other activation function used here, converts the numbers in the final layer into probabilities that add up to 100%. The biggest of these probabilities is the most likely guess for the number shown in the image given to your model.
+The `activation='relu'` you see in the dense layers above is a particular function — called an activation function — that the outputs of the nodes in the layer are passed through before being passed as inputs to the next layer. The function is run for each node, and it decides whether or not the node is used as part of the input to the next layer. Relu is the default activation function, the one you pick when you don't have a reason to pick another. Softmax, the other activation function used here, converts the numbers in the final layer into probabilities that add up to 100%. The greatest of these probabilities is the most likely guess for the number shown in the image given to your model.
 
 --- save ---
