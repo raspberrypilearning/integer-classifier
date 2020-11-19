@@ -1,16 +1,16 @@
 ## Get some training data
 
-Before you can get started trainig your model, you're going to need to open the starter Colab notebook for this project and save a copy to your Google Drive.
+Before you start to train your model, you need to open the starter Colab notebook for this project and save a copy to your Google Drive.
 
 --- task ---
 
-Open the [Google Colab starter notebook](https://colab.research.google.com/drive/10WmCJwhHJhhsLn4truUUS9Y9bLr5X-jO?usp=sharing){:target="_blank"}  for this project in a new tab in your browser.
+Open the [Google Colab starter notebook](https://colab.research.google.com/drive/10WmCJwhHJhhsLn4truUUS9Y9bLr5X-jO?usp=sharing){:target="_blank"} for this project in a new tab in your browser.
 
 --- /task ---
 
 --- task ---
 
-Before you start changing anything, make sure you save the notebook to your drive so you can keep your work! Choose `File > Save a copy in Drive` and sign in to your Google account if prompted.
+Before you change, make sure you save the notebook to your drive so you can keep your work! Choose `File > Save a copy in Drive` and sign in to your Google account if prompted.
 
 ![The 'File' menu in Google Colab, with 'Save a copy in Drive' highlighted.](images/save_to_drive.png)
 
