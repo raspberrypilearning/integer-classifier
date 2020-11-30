@@ -28,7 +28,7 @@ You should see something like the image below, which gives your model's predicti
 
 --- task ---
 
-Use your favourite image editing program to make a square black `jpg` or `png` file with a single white digit in it. Try different fonts, or draw the number yourself. Since this is a small model that you trained pretty quickly, it will be wrong quite often, but it's possible to build and train much more accurate models when they're needed. If you don't have an image editor, you can use a website like [autodraw.com](https://www.autodraw.com/), or can [download and install GIMP](https://www.gimp.org/downloads/).
+Use your favourite image editing program to make a square black `jpg` or `png` file with a single white digit in it. Try different fonts, or draw the number yourself. Since this is a small model that you trained pretty quickly, it will be wrong quite often, but it's possible to build and train much more accurate models when they're needed. If you don't have an image editor, you can use a website like [autodraw.com](https://www.autodraw.com/), or [download and install GIMP](https://www.gimp.org/downloads/).
 
 --- /task ---
 
