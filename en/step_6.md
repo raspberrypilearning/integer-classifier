@@ -4,7 +4,7 @@ Now that it's compiled, your model is ready for training. Since you're also goin
 
 --- task ---
 
-Create a `history` variable and assign the output of `model.fit()` (remember that training is sometimes called fitting) to it, passing the function the training and validation data you prepared, along with the size of the batches you want to break the data into and the number epochs — complete runs through the data — you want the model to do before it finishes training. A batch size of 100 and ten epochs seem to work well for this model.
+Create a `history` variable and assign the output of `model.fit()` (remember that training is sometimes called fitting) to it, passing the function the training and validation data you prepared, along with the size of the batches you want to break the data into and the number epochs — complete runs through the data — you want the model to do before it finishes training. A batch size of 100 and 10 epochs seem to work well for this model.
 
 ```python
 history = model.fit(training_images,
@@ -31,7 +31,7 @@ plot_accuracy_and_loss(history)
 
 Run all the code.
 
-You will probably have to wait about a minute for training to complete. Watch the loss reduce and the accuracy increase as each batch and epoch complete. There are 600 batches in an epoch, because there are 60,000 images in your data.
+You will probably have to wait about a minute for training to complete. Watch the loss reduce and the accuracy increase as each batch and epoch completes. There are 600 batches in an epoch, because there are 60,000 images in your data.
 
 Once the training is finished, you should see some output like that in the image below, though your numbers may be slightly different.
 
