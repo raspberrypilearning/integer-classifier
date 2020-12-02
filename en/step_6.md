@@ -4,7 +4,7 @@ Now that it's compiled, your model is ready for training. Since you're also goin
 
 --- task ---
 
-Create a `history` variable and assign the output of `model.fit()` (remember that training is sometimes called fitting) to it, passing the function the training and validation data you prepared, along with the size of the batches you want to break the data into and the number epochs — complete runs through the data — you want the model to do before it finishes training. A batch size of 100 and 10 epochs seem to work well for this model.
+Create a `history` variable and assign the output of `model.fit()` to it (remember that training is sometimes called fitting). Pass the training and validation data you prepared, along with the size of the batches you want to break the data into, and the number epochs — complete runs through the data — you want the model to do before it finishes training. A batch size of 100 and 10 epochs seem to work well for this model.
 
 ```python
 history = model.fit(training_images,
