@@ -1,6 +1,6 @@
 ## Introduction
 
-In this project you'll be training a computer to recognise the numbers between zero and nine. You'll also learn to measure how well your machine vision model does the job you trained it for.
+In this project, you'll train a computer to recognise the numbers between zero and nine. You'll also learn to measure how well your machine vision model performs the job you have trained it to do.
 
 ### What you will make
 You will create a TensorFlow model in a Google Colab notebook that can recognise the numbers between zero and nine from pictures of those numbers.
@@ -15,7 +15,7 @@ This project assumes you already know some Python. Specifically, it assumes you 
 
 + Variables
 + Lists
-+ Functions, including creating your own function that accepts arguments
++ Functions, including how to create your own function that accepts arguments
 
 --- /collapse ---
 
