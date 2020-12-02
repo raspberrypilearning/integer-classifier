@@ -2,8 +2,8 @@ title: Teach a computer to read
 hero_image: images/banner.png
 description: Build a machine vision model with TensorFlow to teach a computer to recognise handwritten numbers.
 version: 4
-listed: false
-copyedit: false
+listed: true
+copyedit: true
 last_tested: "2020-06-29"
 steps:
   - title: Introduction
